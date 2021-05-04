@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Developer Lesson 1</string>
+    <string name="task1">Task 1 (Coding challenge)</string>
+    <string name="task2">Task 2 (Homework)</string>
+    <string name="happy_birthday">Happy birthday to Vladimir</string>
+    <string name="generate_exception">Generate exception</string>
+    <string name="success_output">Exception successfully thrown and the message appeared in Logcat</string>
+    <string name="logs_print">All logs successfully printed in Logcat</string>
+
+</resources>
