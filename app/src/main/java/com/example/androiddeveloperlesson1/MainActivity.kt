@@ -11,14 +11,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun goingToTask1(view: View) {
+    fun goingToLesson1Part1CodingChallenge(view: View) {
         val intent = Intent(this, Task1Activity::class.java)
         startActivity(intent)
     }
 
 
-    fun goingToTask2(view: View) {
+    fun goingToLesson1Part1Homework(view: View) {
         val intent = Intent(this, Task2Activity::class.java)
+        startActivity(intent)
+    }
+
+    fun goingToTaskLesson1Part2CodingChallenge(view: View) {
+        val intent = Intent(this, Lesson1Part2CodingChallengeActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun goingToTaskLesson1Part3CodingChallenge(view: View) {
+        val intent = Intent(this, Lesson1Part3CodingChallengeActivity::class.java)
         startActivity(intent)
     }
 }

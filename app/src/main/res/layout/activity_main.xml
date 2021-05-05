@@ -10,20 +10,44 @@
         android:id="@+id/task1"
         android:layout_width="173dp"
         android:layout_height="85dp"
-        android:text="@string/task1"
-        android:onClick="goingToTask1"
+        android:onClick="goingToLesson1Part1CodingChallenge"
+        android:text="@string/lesson1_1_coding_challenge"
         app:layout_constraintBottom_toTopOf="@+id/task2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.503" />
+        app:layout_constraintVertical_bias="0.067" />
 
     <Button
         android:id="@+id/task2"
         android:layout_width="173dp"
         android:layout_height="85dp"
-        android:text="@string/task2"
-        android:onClick="goingToTask2"
+        android:onClick="goingToLesson1Part1Homework"
+        android:text="@string/lesson1_1_homework"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <Button
+        android:id="@+id/task"
+        android:layout_width="173dp"
+        android:layout_height="85dp"
+        android:onClick="goingToTaskLesson1Part2CodingChallenge"
+        android:text="@string/lesson1_2_coding_challenge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <Button
+        android:id="@+id/task3"
+        android:layout_width="173dp"
+        android:layout_height="85dp"
+        android:onClick="goingToTaskLesson1Part3CodingChallenge"
+        android:text="@string/lesson1_3_coding_challenge"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

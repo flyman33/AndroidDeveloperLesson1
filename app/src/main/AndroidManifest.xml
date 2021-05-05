@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDeveloperLesson1">
-        <activity android:name=".Task2Activity"></activity>
+        <activity android:name=".Lesson1Part3CodingChallengeActivity"></activity>
+        <activity android:name=".Lesson1Part2CodingChallengeActivity" />
+        <activity android:name=".Task2Activity" />
         <activity android:name=".Task1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
